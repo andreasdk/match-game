@@ -18,7 +18,9 @@ function createGrid() {
   document.body.appendChild(grid);
 }
 
-console.log(createGrid());
+addEventListener("DOMContentLoaded", (event) => {
+  createGrid();
+});
 
 // Array of image names from assets/images
 const fruitName = [
