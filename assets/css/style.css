@@ -1,17 +1,12 @@
 .game__board__wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.game__board {
   display: grid;
   grid-template-columns: 120px 120px 120px;
   grid-template-rows: 120px 120px 120px 120px;
   justify-content: center;
 }
 
-.box {
+.game__board__box {
   background-color: #d9d9d9;
   border: 2px solid black;
+  height: 100%;
 }
