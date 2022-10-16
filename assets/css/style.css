@@ -1,12 +1,19 @@
-.game__board__wrapper {
+.game__board {
+  padding: 20px;
   display: grid;
-  grid-template-columns: 120px 120px 120px;
-  grid-template-rows: 120px 120px 120px 120px;
-  justify-content: center;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 20px;
 }
-
 .game__board__box {
   background-color: #d9d9d9;
   border: 2px solid black;
-  height: 100%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  width: 120px;
+  height: 120px;
+}
+
+.game__board__image {
+  max-width: 80px;
 }
